@@ -1,0 +1,163 @@
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    color: #3355FF;
+    
+}
+
+.photos-container {
+    display: flex;
+    position: absolute;
+    margin-top:-50px;
+    margin-left: 300px;
+}
+
+.photos {
+    height: 50px;
+    width: 50px;
+    background-image: url(img/photo.png);
+    margin-top: -8px;
+}
+
+.btn-container {
+    display: flex;
+      flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.price-filter-container {
+display: flex;
+}
+
+.price-filter-container p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.price-filter-container input {
+    font-family: Aril, sans-serif;
+    font-size: 20px;
+    color:#3399FF;
+   border-radius: 15px;
+    border: 2px solid #3399FF;
+    margin-top: 10px;
+}
+
+.price-filter-container input:hover {
+    border: 2px solid #3355FF;
+    outline: none;
+}
+
+.price-filter-container input:focus {
+    outline: none;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #3399FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+     margin-left:10px;
+}
+
+.btn-container button:hover{
+    background-color: #3355FF;
+    outline: none;
+}
+
+.btn-container button:focus{
+    background-color: #4F33FF;
+    outline: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    border:2px solid #3399FF;
+    border-radius: 5%;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.item:hover {
+    box-shadow: 0 0 35px rgba(0,0,0,0.5);
+}
+
+.item p {
+    font-family: Arial,sans-serif;
+    font-size: 28px;
+    margin: 0;
+    color:#000000;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.heart {
+    position:absolute;
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    outline: none;
+    background-image: url(img/a_heart_9_02122102.png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    margin-left: 330px;
+    padding-left: 50px;
+}
+
+.heart-checked {
+    background-image: url(img/heart.png);
+    position:absolute;
+    border: none;
+    background-color: #3399FF;
+    text-decoration: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    margin-left: 330px;
+    padding-left: 50px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+.item img {
+     
+        border-radius: 5%;
+}
